@@ -170,7 +170,7 @@ def player_stats(player_names)
       end
     end
   end
-  player_names(a_value)
+  value
 end
 
 
