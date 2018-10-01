@@ -166,10 +166,11 @@ end
 def player_stats(player_names)
     game_hash.each do |location, team_data|
         team_data[:players].each do |key, value|
-          if player_names
+          if player_names === key.to_s
       end
     end
   end
+  player_names
 end
 
 
