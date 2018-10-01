@@ -165,7 +165,6 @@ end
 
 def player_stats(player_names)
     game_hash.each do |location, team_data|
-      if team_data[:team_name] === team_name
         team_data[:players].each do |player, stat|
           player_stats.push(number[:number])
       end
