@@ -179,6 +179,7 @@ def big_shoe_rebounds
       players.each do |player, data|
         show_size = data[:shoe]
         if show_size 
+      end
     end
   end
 end
