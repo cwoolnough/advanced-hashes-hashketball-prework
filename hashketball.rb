@@ -166,7 +166,7 @@ end
 def player_stats(player_names)
     game_hash.each do |location, team_data|
         team_data[:players].each do |key, value|
-          
+          if key
       end
     end
   end
